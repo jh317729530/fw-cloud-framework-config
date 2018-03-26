@@ -34,6 +34,16 @@ zuul:
       serviceId: business-admin-server
       stripPrefix: true
       sensitiveHeaders:
+    business-pay-server:
+      path: /pay/**
+      serviceId: business-pay-server
+      stripPrefix: true
+      sensitiveHeaders:
+    business-ditu-server:
+      path: /ditu/**
+      serviceId: business-ditu-server
+      stripPrefix: true
+      sensitiveHeaders:
   ratelimit:
     key-prefix: business-ratelimite
     enabled: true
