@@ -18,7 +18,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: system-auth-server,business-admin-server
+      clients: system-auth-server,business-admin-server,business-pay-server,project-ditu-server
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
@@ -39,9 +39,9 @@ zuul:
       serviceId: business-pay-server
       stripPrefix: true
       sensitiveHeaders:
-    business-ditu-server:
+    project-ditu-server:
       path: /ditu/**
-      serviceId: business-ditu-server
+      serviceId: project-ditu-server
       stripPrefix: true
       sensitiveHeaders:
   ratelimit:
