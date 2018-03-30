@@ -1,6 +1,10 @@
 server:
   port: 2002
 
+redis:
+  cache:
+    expiration: 3600
+
 spring:
   #datasource: # 采用分库分表，即注释这里的数据源
     #driver-class-name:
