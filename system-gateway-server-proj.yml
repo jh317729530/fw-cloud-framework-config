@@ -74,7 +74,8 @@ urls:
   collects:
     - /mobile/**
     - /auth/**
-    - /ditu/icemap/index.html
+    - /ditu/icemap/**
+    - /ditu/pay/**
     - /admin/code/*
     - /admin/api/info
     - /admin/api/userTree
