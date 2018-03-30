@@ -76,6 +76,9 @@ urls:
     - /auth/**
     - /ditu/icemap/**
     - /ditu/pay/**
+    - /ditu/css/**
+    - /ditu/images/**
+    - /ditu/js/**
     - /admin/code/*
     - /admin/api/info
     - /admin/api/userTree
