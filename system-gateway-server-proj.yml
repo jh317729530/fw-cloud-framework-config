@@ -42,7 +42,7 @@ zuul:
     project-ditu-server:
       path: /ditu/**
       serviceId: project-ditu-server
-      stripPrefix: true
+      stripPrefix: false
       sensitiveHeaders:
   ratelimit:
     key-prefix: business-ratelimite
