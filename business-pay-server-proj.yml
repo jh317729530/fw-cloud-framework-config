@@ -6,10 +6,6 @@ server:
     #keyStoreType: ENC(ap4RBwtVH57wU6hMIfMYiw==)
     #keyAlias: ENC(xTlOdsKEuQPbr8ypr6yEKauPSVMSiql5)
 
-redis:
-  cache:
-    expiration: 3600
-
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver

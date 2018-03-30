@@ -21,8 +21,8 @@ zuul:
       clients: system-auth-server,business-admin-server,business-pay-server,project-ditu-server
   ignoredServices: '*'
   host:
-    connect-timeout-millis: 30000
-    socket-timeout-millis: 30000
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
   routes:
     system-auth-server:
       path: /auth/**

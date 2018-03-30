@@ -20,15 +20,15 @@ spring:
 
 cache:
   redis:
-    expiration: 3601
+    expiration: 3600
 
 ribbon:
   Httpclient:
     enable: false
   OkHttp:
     enable: true
-  ReadTimeout: 10000
-  ConnectTimeout: 10000
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
 
 feign:
   hystrix:
@@ -40,8 +40,8 @@ feign:
   client:
     config:
       feignName:
-        connectTimeout: 30000
-        readTimeout: 30000
+        connectTimeout: 60000
+        readTimeout: 60000
 
 hystrix:
   threadpool:
