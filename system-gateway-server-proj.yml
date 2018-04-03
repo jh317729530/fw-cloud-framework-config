@@ -18,7 +18,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: system-auth-server,business-admin-server,business-pay-server,project-ditu-server
+      clients: system-auth-server,business-admin-server,business-pay-server,project-ditu-server,business-wechat-server
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
@@ -38,6 +38,11 @@ zuul:
       path: /pay/**
       serviceId: business-pay-server
       stripPrefix: true
+      sensitiveHeaders:
+    business-wechat-server:
+      path: /wechat/**
+      serviceId: business-wechat-server
+      stripPrefix: false
       sensitiveHeaders:
     project-ditu-server:
       path: /ditu/**
