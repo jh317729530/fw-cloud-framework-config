@@ -11,7 +11,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: ENC(YXXxUQzO2qaxX2bJzDNKZg==)
     password: ENC(iIR6UImHnGfe4GOkWBFxtw==)
-    url: ENC(ymGGfyoWPXrkEGMvkU2sPbUvJbJjpBP+W1ttEh6luvt83MdK3iuyOvroM6kOIFAy2E9Fl81OTcvKNRJTXrNEKyX5Gz3uclh1p/DIfpcMqqJjDNFxbrXPo3l58nKodiTtaailQFt344KgkkG4CIl5WTfDIDMNSOjvDFINv1FUJ04=)
+    url: ENC(KNkvyA6UvwNKRrXZKNkL5mZ1J00Pkl+bL/CRdnN9d/FWib1x/D3r7q+/X4Ap9MOk+WHlYevku1q23nVTsgiglQxYH7SC5Dued9QY19ryGBJlidx9doLoRRFCvRmB3ojDZqtAOceqriPRFq4DLo2jAajozSoOW1hA7aYoG+ZuGTQ=)
   jpa:
     database: MYSQL
     show-sql: true
